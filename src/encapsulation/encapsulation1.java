@@ -17,6 +17,7 @@ public class encapsulation1 {
 
     public void setEars(int e) // this e will take parameter and we will set e to eyes to overwrite the private declared variable 
     {
+        // ears=e so when we later gave value to e then it will be direct assigned to ears 
         ears=e;
     }
 }

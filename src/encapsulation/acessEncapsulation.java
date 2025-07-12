@@ -20,6 +20,9 @@ public class acessEncapsulation {
 
         obj1.setEars(19);
 
+        System.out.println(obj1.eyes);
+
+
 
 
     }
