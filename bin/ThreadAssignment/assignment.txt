@@ -1,0 +1,29 @@
+Create a counter variable shared by all threads.
+
+Define a task where each thread increments the counter multiple times.
+
+Start multiple threads concurrently.
+
+Ensure thread safety (either through synchronization or atomic variables).
+
+Wait for all threads to finish.
+
+Print the final value of the counter.
+
+
+
+ASSINGMENT 2 
+
+Assignment 2: Print Numbers Using Multiple Threads
+Task:
+Create two threads.
+
+One thread should print even numbers from 0 to 10.
+
+The other thread should print odd numbers from 1 to 9.
+
+Concepts Practiced:
+
+Multiple threads
+
+Passing different logic to different threads

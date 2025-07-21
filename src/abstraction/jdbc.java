@@ -16,6 +16,8 @@ public class jdbc {
             Connection connection=DriverManager.getConnection(url, usr, pass);
             Statement statement=connection.createStatement();
             ResultSet resultSet=statement.executeQuery("select * from Student");
+
+            // while loop iterate over the data
             while(resultSet.next()){
                 System.out.println(resultSet.getInt(1)+" "+resultSet.getString(2)+" "+resultSet.getString(3));
             }
